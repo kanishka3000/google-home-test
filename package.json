@@ -1,0 +1,28 @@
+{
+  "name": "google-home-action-fulfillment",
+  "version": "1.0.0",
+  "description": "Fulfillment code for Google Home Action with AWS Lambda",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/actions-on-google": "^2.0.1",
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+
+}
